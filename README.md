@@ -3,7 +3,8 @@
 Trains two colaborative tennis agents using Multi Agent Deep Deterministic Policy Gradient (MADDPG)
 
 <center>
-    [<img src="https://img.youtube.com/vi/J38OPprZrbI/maxresdefault.jpg" width="50%">]
+[![Watch the video](https://img.youtube.com/vi/J38OPprZrbI/maxresdefault.jpg)](https://youtu.be/J38OPprZrbI)
+
 </center>
 
 ## Introduction
