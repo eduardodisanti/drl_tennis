@@ -3,6 +3,7 @@
 Trains two colaborative tennis agents using Multi Agent Deep Deterministic Policy Gradient (MADDPG)
 
 <center>
+    ![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://youtu.be/J38OPprZrbI)
 	<img src="https://github.com/eduardodisanti/reacher_2_joint_robotic_arm/blob/master/media/reacher_multi.gif" alt="agent in action" width="240"/>
 </center>
 
