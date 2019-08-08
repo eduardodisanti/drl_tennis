@@ -25,6 +25,8 @@ A reward is granted when any agent reaches the ball in the correct position and 
 | Report_Tennis.pdf  | Technical paper and training report | /report |
 | actor_chk.pt | Saved weights of the <b>actor</> neural network | /model
 | critic_chk.pt | Saved weights of the <b>critic</b> neural network | /model
+| actor_chk.pt.best | Saved weights of the <b>best actor</> neural network weights| /model
+| critic_chk.pt.best | Saved weights of the <b>best critic</b> neural network weights| /model
 | tennis_video.m4v | A video showing the trained agent | /media
 
 ## Instructions 
@@ -41,17 +43,18 @@ A reward is granted when any agent reaches the ball in the correct position and 
 		<img src="https://github.com/eduardodisanti/drl_tennis/blob/master/report/training_1000.png" alt="training report" width="180"/>
 	</center>
 	<br/>
-	Episode 100 score mean 2.3750000363215804 average on deque 1.9352000317443163
-    100 2.3750000363215804 0.5 100
-    Environment SOLVED in 100episodes
-    Moving Average = 1.9352000317443163 over last 100 episodes
-	
+	Episode 100 score mean 2.3750000363215804 average on deque 1.9352000317443163<br/>
+    100 2.3750000363215804 0.5 100<br/>
+    Environment SOLVED in 100episodes<br/>
+    Moving Average = 1.9352000317443163 over last 100 episodes<br/>
+	<br/>
 - Training from the command line,
 	Execute *cd code*<br/>
 	Run the train_agent_headless.py using the command *python train_agent_headless.py*<br/>
 	During the training the progress of the training will be written to the console. <br/>
 
-The training will stop when the agent reach an average of +0.5 on last 100 episodes. (Will happen around 20 episodes) 
+The training will stop when the agent reach an average of +0.5 on last 100 episodes. (Will happen around 20 episodes)<br/>
+Model will be saved every time the score improves (when the episode ends) in a separate files (.best) <br/> 
 
 ## Apendices
 
